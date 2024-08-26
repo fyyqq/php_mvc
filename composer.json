@@ -1,0 +1,16 @@
+{
+    "name": "user/php",
+    "autoload": {
+        "psr-4": {
+            "User\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Afiq"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^2.1"
+    }
+}
