@@ -7,17 +7,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo 'php/public/app/'; ?>">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo $_SERVER['PHP_SELF']; ?>">About</a>
+                    <a class="nav-link active" href="<?= BASE_URL; ?>/index">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">About</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="<?php echo 'php/public/about/index'; ?>">About Index</a></li>
-                        <li><a class="dropdown-item" href="<?php echo 'php/public/about'; ?>">About Page</a></li>
+                        <li><a class="dropdown-item" href="<?= BASE_URL ?>/about">About Index</a></li>
+                        <li><a class="dropdown-item" href="<?= BASE_URL ?>/about/page">About Page</a></li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= BASE_URL; ?>/student">Students</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
